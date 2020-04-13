@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="0.1">
+	<category id="pinn" label="Pinn">
+		<setting type="folder" id="pinn_system_folder" label="Path to where pinn system partition (/dev/mmcblk0p1) is mounted.(where autoboot.txt is created)" default="/media/pinn/system"/>
+	</category>
+	<category id="os1" label="Os 1">
+		<setting type="text" id="os1_name" label="OS Name" default=""/>
+		<setting type="number" id="os1_part_nb" label="Parition Number (Fat32 partition)" default=""/>
+	</category>
+	<category id="os2" label="Os 2">
+		<setting type="text" id="os2_name" label="OS Name" default=""/>
+		<setting type="number" id="os2_part_nb" label="Parition Number (Fat32 partition)" default=""/>
+	</category>
+	<category id="os3" label="Os 3">
+		<setting type="text" id="os3_name" label="OS Name" default=""/>
+		<setting type="number" id="os3_part_nb" label="Parition Number (Fat32 partition)" default=""/>
+	</category>
+	<category id="os4" label="Os 4">
+		<setting type="text" id="os4_name" label="OS Name" default=""/>
+		<setting type="number" id="os4_part_nb" label="Parition Number (Fat32 partition)" default=""/>
+	</category>
+	<category id="os5" label="Os 5">
+		<setting type="text" id="os5_name" label="OS Name" default=""/>
+		<setting type="number" id="os5_part_nb" label="Parition Number (Fat32 partition)" default=""/>
+	</category>
+</settings>

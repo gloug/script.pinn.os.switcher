@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.pinn.os.switcher" name="Pinn Os Switcher" version="0.1" provider-name="gloug">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0" />
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Pinn Os Switcher: Directly jump to another installed OS.</summary>
+        <description lang="en">When using pinn multi-os booting system, this script allow you to directly jump to another OS.</description>
+        <assets>
+            <icon>icon.png</icon>
+            <!-- <fanart>fanart.jpg</fanart>
+            <screenshot>resources/screenshots/home.jpg</screenshot>
+            <screenshot>resources/screenshots/movies.jpg</screenshot>
+            <screenshot>resources/screenshots/webui.png</screenshot> -->
+        </assets>
+    </extension>
+</addon>
