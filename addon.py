@@ -43,4 +43,4 @@ else:
         xbmcgui.Dialog().ok("Starting Raspbian", "Error", str(e))
 
     if reboot:
-        pass
+        os.system("reboot")
